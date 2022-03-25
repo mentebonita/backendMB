@@ -1,6 +1,6 @@
 package com.prueba.example.pruebaBack;
 
-import com.prueba.example.pruebaBack.Component.Persona;
+import com.prueba.example.pruebaBack.model.Persona;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -18,6 +18,6 @@ public class PruebaBackApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		persona.revisar();
+
 	}
 }
