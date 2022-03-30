@@ -7,6 +7,6 @@ public class InicioController {
     @RequestMapping({"/","/inicio"})
     public String inicio() {
 
-        return "iniciarSesion";
+        return "inicioMB.component";
     }
 }
